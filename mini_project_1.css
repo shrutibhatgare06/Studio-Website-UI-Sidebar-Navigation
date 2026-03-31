@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    background-image: url(_camera\ picture_3.png);
+    background-size: auto;
+    font-size: larger;
+}
+
+.main_menu {
+    line-height: 70px;
+    font-size: xx-large;
+
+}
+
+.social_icon {
+    display: inline-block;
+    font-size: normal;
+    opacity: 60%;
+}
+
+.social_media {
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+
+.social_icon:hover {
+    opacity: 100%;
+}
+
+.slidebar {
+    position: absolute;
+    left: -1000px;
+    background-color: rgba(127, 126, 126, 0.447);
+    height: max-content;
+    width: 310px;
+    height: 100vh;
+    transition: left 1.3s ease-out;
+}
+
+#checkbox {
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+
+.options {
+    padding: 10px;
+    margin: 5px;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+}
+
+.options:hover {
+    box-shadow: 2px 2px 7px black;
+}
+
+.option_list {
+    list-style: none;
+}
+
+input[type="checkbox"]:checked~.slidebar {
+    position: absolute;
+    left: 0px;
+}
+
+input[type="checkbox"]:checked+.main_menu {
+    display: none;
+}
