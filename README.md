@@ -1,9 +1,8 @@
 # Studio-Website-UI-Sidebar-Navigation
-This is my first UI project.
-
-Technologies: HTML, CSS, Font Awesome
--Designed a studio-themed website UI with a collapsible sidebar menu.
--Implemented sidebar toggle functionality using HTML checkbox and CSS selectors.
--Integrated Font Awesome icons to enhance navigation and visual appeal.
--Applied hover effects, background styling, and layout positioning.
--Focused on clean UI design and user-friendly navigation.
+This is my first UI project.<br>
+Technologies: HTML, CSS, Font Awesome<br>
+-Designed a studio-themed website UI with a collapsible sidebar menu.<br>
+-Implemented sidebar toggle functionality using HTML checkbox and CSS selectors.<br>
+-Integrated Font Awesome icons to enhance navigation and visual appeal.<br>
+-Applied hover effects, background styling, and layout positioning.<br>
+-Focused on clean UI design and user-friendly navigation.<br>
