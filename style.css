@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     font-weight: bold;
-    background-image: url(_camera\ picture_3.png);
+    background-image: url(camera_picture.png);
     background-size: auto;
     font-size: larger;
 }
